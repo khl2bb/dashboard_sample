@@ -85,6 +85,19 @@ h3 {
   border-radius: 5px 5px 5px 5px;
 }
 
+.gridArea {
+  margin: 20px;
+  transition: height 2s ease;
+}
+
+.gridHead {
+  display: flex;
+  margin-bottom: 10px;
+  justify-items: center;
+  text-align: center;
+  line-height: 30px;
+}
+
 .indexAnchor {
   color: black;
   text-decoration: none;
