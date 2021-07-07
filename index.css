@@ -190,6 +190,9 @@ h3 {
   box-sizing: border-box;
 }
 
+#sideBox2 {
+  text-align: center;
+}
 
 #sideBoxCon1 {
   font-size: 18px;
@@ -201,6 +204,13 @@ h3 {
   font-size: 18px;
 }
 
+#sideBoxCon3 {
+  font-size: 18px;
+  padding: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid hsl(210, 14%, 89%);
+  background-color: #bdc3c7;
+}
 #summaryHead {
   padding: 15px 0px 0px 20px;
   font-size: 20px;
