@@ -5,11 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./index.css" rel="stylesheet" type="text/css" />
-    <title>대시보드 재현</title>
-</head>
-<body>
-    
-<div id='header'></div>
+    <title>대시보드 샘플</title>
+  </head>
+  <body>
+    <div id="frontline">
+      <div id="sideBar">
+        <a id="logoAnchor" href="https://khl2bb.github.io/dashboard_sample/">
+          <div id="logoBox">
+            <img src="./img/601.png" id="logoImg" />
+            <div id="logoText">ADMIN</div>
+          </div>
+        </a>
 
-</body>
-</html>
+      <div id="mainArea">
+        <div id="mainHeader">
+          <h2>로그 상황 대시보드</h2>
+        </div>
+        <div id="summaryAnchor"></div>
+        <div class="board" id="summaryBoard">
+          <div class="boardHead" id="summaryHead">
+            <h3>요약</h3>
+          </div>
+          <div class="cardArea">
+            <div class="card red_card">
+              <div class="inner">
+                <div class="cardHead">상황 A</div>
+                <div class="cardValue">14 건</div>
+                <a class="cardAnchor" href="#gridAnchor">
+                  <div class="cardAnchor">그리드 보기</div>
+                </a>
+              </div>
+            </div>
+
+            <div class="card warning_card">
+              <div class="inner">
+                <div class="cardHead">서명 중복</div>
+                <div class="cardValue">2 건</div>
+                <a class="cardAnchor" href="#gridAnchor">
+                  <div class="cardAnchor">그리드 보기</div>
+                </a>
+              </div>
+            </div>
+
+            <div class="card green_card">
+              <div class="inner">
+                <div class="cardHead">변조 의심</div>
+                <div class="cardValue">0 건</div>
+              </div>
+            </div>
+            <div class="card green_card">
+              <div class="inner">
+                <div class="cardHead">해킹 의심</div>
+                <div class="cardValue">0 건</div>
+              </div>
+            </div>
+          </div>
+          <div class="cardArea">
+            <div class="card info_card">
+              <div class="inner">
+                <div class="cardHead">로그 수 변화</div>
+                <div class="cardValue">+3,754</div>
+              </div>
+            </div>
+          </div>
+        </div>
+

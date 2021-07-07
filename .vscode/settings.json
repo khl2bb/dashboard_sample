@@ -1,0 +1,6 @@
+{
+  "editor.minimap.enabled": false,
+  "diffEditor.codeLens": false,
+  "javascript.referencesCodeLens.enabled": false,
+  "javascript.referencesCodeLens.showOnAllFunctions": false
+}
