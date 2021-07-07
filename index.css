@@ -11,3 +11,19 @@ h3,
 h4 {
   margin: 0;
 }
+#frontline {
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mainHeader {
+  border-bottom: 1px solid hsl(210, 14%, 89%);
+  height: 60px;
+  padding: 13px 0px 10px 20px;
+  box-sizing: border-box;
+  background-color: #3498db;
+}
+
