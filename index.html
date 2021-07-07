@@ -8,6 +8,14 @@
       rel="stylesheet"
       href="https://uicdn.toast.com/chart/latest/toastui-chart.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://uicdn.toast.com/tui-grid/latest/tui-grid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://uicdn.toast.com/tui.pagination/latest/tui-pagination.css"
+    />
     <link href="./index.css" rel="stylesheet" type="text/css" />
     <title>대시보드 샘플</title>
   </head>
@@ -115,7 +123,45 @@
             </div>
           </div>
         </div>
+        <div id="gridAnchor"></div>
+        <div class="board">
+          <div class="boardHead">
+            <h3>그리드</h3>
+          </div>
+          <div class="gridArea">
+            <div class="gridHead">상황 A</div>
             <div id="grid1"></div>
+            <div class="gridHead">중복 서명</div>
+            <div id="grid2"></div>
+            <div class="gridHead">
+              변조 의심
+
+              <div id="gridBtn3" class="gridBtn">></div>
+            </div>
+            <div id="grid3"></div>
+            <div class="gridHead">
+              해킹 의심
+
+              <div id="gridBtn4" class="gridBtn">></div>
+            </div>
+            <div id="grid4"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- toastui gird -->
+  <script
+    type="text/javascript"
+    src="https://uicdn.toast.com/tui.code-snippet/v1.5.0/tui-code-snippet.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://uicdn.toast.com/tui.pagination/v3.3.0/tui-pagination.js"
+  ></script>
+  <script src="https://uicdn.toast.com/tui-grid/latest/tui-grid.js"></script>
+  <script src="https://uicdn.toast.com/tui.pagination/latest/tui-pagination.js"></script>
   <!-- toastui chart -->
   <script src="https://uicdn.toast.com/chart/latest/toastui-chart.min.js"></script>
   <!-- chart js -->
@@ -124,3 +170,9 @@
   <script src="js/appSelect.js"></script>
   <script src="js/userRankingChart.js"></script>
   <script src="js/chart.js"></script>
+  <script src="js/grid1.js"></script>
+  <script src="js/grid2.js"></script>
+  <script src="js/grid3.js"></script>
+  <script src="js/grid4.js"></script>
+  <script src="js/btnClick.js"></script>
+</html>
