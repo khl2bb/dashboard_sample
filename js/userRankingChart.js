@@ -37,3 +37,67 @@ let myChart = new Chart(canvasElement, {
         label: "유저C",
         data: [3, 4, 3, 4, 4, 8, 9],
         backgroundColor: ["rgba(155,89,182,0.3)"],
+        borderColor: ["#9b59b6"],
+        borderWidth: tempBorderWidth,
+        lineTension: 0,
+      },
+      {
+        label: "유저D",
+        data: [4, 8, 4, 6, 7, 9, 7],
+        backgroundColor: ["rgba(46,204,113,0.3)"],
+        borderColor: ["#2ecc71"],
+        borderWidth: tempBorderWidth,
+        lineTension: 0,
+      },
+      {
+        label: "유저E",
+        data: [5, 6, 8, 9, 8, 7, 9],
+        backgroundColor: ["rgba(52,152,219,0.3)"],
+        borderColor: ["#3498db"],
+        borderWidth: tempBorderWidth,
+        lineTension: 0,
+      },
+    ],
+  },
+  options: {
+    responsive: false,
+    title: {
+      display: true,
+      text: "악성 유저 탐지 수 순위 랭킹 변동",
+    },
+    scales: {
+      yAxes: [
+        {
+          scaleLabel: {
+            display: true,
+            labelString: "순위",
+          },
+          ticks: {
+            reverse: true,
+            stacked: false,
+            beginatzero: true,
+            display: true,
+          },
+
+          gridLines: {
+            display: true,
+            drawBorder: true,
+            offsetGridLines: false,
+          },
+        },
+      ],
+      xAxes: [
+        {
+          scaleLabel: {
+            display: true,
+          },
+          gridLines: {
+            display: true,
+            drawBorder: true,
+            offsetGridLines: false,
+          },
+        },
+      ],
+    },
+  },
+});
