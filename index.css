@@ -83,11 +83,6 @@ html {
   display: flex;
 }
 
-.charto {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 0.5rem;
-}
-
 .green_card {
   padding: 10px 20px 10px 20px;
   background-color: #28a745;
@@ -183,13 +178,6 @@ html {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-
-#header {
-  width: 100vw - 260px;
-  height: 80px;
-  margin: 0px;
-  background-color: aquamarine;
 }
 
 #logoBox {
