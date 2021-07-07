@@ -75,10 +75,39 @@ h3 {
   text-align: center;
 }
 
+.chartArea {
+  display: flex;
+}
+
 .green_card {
   padding: 10px 20px 10px 20px;
   background-color: #28a745;
   border-radius: 5px 5px 5px 5px;
+}
+
+.indexAnchor {
+  color: black;
+  text-decoration: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+.indexList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.indexLi {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  border-bottom: 1px solid hsl(210, 14%, 89%);
+}
+
+.indexLi:hover {
+  background-color: cadetblue;
 }
 
 .info_card {
@@ -97,6 +126,15 @@ h3 {
   padding: 10px 20px 10px 20px;
   background-color: #ffc107;
   border-radius: 5px 5px 5px 5px;
+}
+
+#chart1 {
+  margin: 20px;
+  margin-right: 10px;
+}
+
+#chart2 {
+  margin: 20px;
 }
 
 #frontline {
