@@ -63,7 +63,7 @@ let myChart = new Chart(canvasElement, {
     responsive: false,
     title: {
       display: true,
-      text: "악성 유저 탐지 수 순위 랭킹 변동",
+      text: "주요 악성 유저 탐지 수 순위 랭킹 변동",
     },
     scales: {
       yAxes: [
