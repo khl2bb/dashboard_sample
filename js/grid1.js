@@ -8,6 +8,7 @@ const gridData = [
     genre: "Pop",
     genreCode: "1",
     grade: "2",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
   },
   {
     id: 436461,
@@ -18,6 +19,7 @@ const gridData = [
     genre: "Pop",
     genreCode: "1",
     grade: "3",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
   },
   {
     id: 295651,
@@ -28,6 +30,7 @@ const gridData = [
     genre: "Pop,Rock",
     genreCode: "1,2",
     grade: "2",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
   },
   {
     id: 541713,
@@ -39,6 +42,7 @@ const gridData = [
     genre: "Rock",
     genreCode: "2",
     grade: "3",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
   },
   {
     id: 265289,
@@ -50,6 +54,7 @@ const gridData = [
     genre: "Pop,R&B",
     genreCode: "1,3",
     grade: "3",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
   },
   {
     id: 555871,
@@ -61,6 +66,7 @@ const gridData = [
     genre: "R&B,Electronic",
     genreCode: "3,4",
     grade: "2",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
   },
   {
     id: 550571,
@@ -72,6 +78,7 @@ const gridData = [
     genre: "Jazz",
     genreCode: "5",
     grade: "3",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
   },
   {
     id: 544128,
@@ -82,6 +89,7 @@ const gridData = [
     genre: "Electronic",
     genreCode: "4",
     grade: "2",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
   },
   {
     id: 366374,
@@ -92,6 +100,7 @@ const gridData = [
     genre: "Pop,Funk",
     genreCode: "1,5",
     grade: "3",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
   },
   {
     id: 8012747,
@@ -102,6 +111,7 @@ const gridData = [
     genre: "Rock",
     genreCode: "2",
     grade: "3",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
   },
   {
     id: 502792,
@@ -112,6 +122,7 @@ const gridData = [
     genre: "Hiphop",
     genreCode: "5",
     grade: "3",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
   },
   {
     id: 294574,
@@ -122,6 +133,7 @@ const gridData = [
     genre: "Pop",
     genreCode: "1",
     grade: "3",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
   },
   {
     id: 317659,
@@ -131,6 +143,7 @@ const gridData = [
     typeCode: "3",
     genre: "Pop",
     genreCode: "1",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
     grade: "2",
   },
   {
@@ -142,6 +155,7 @@ const gridData = [
     genre: "R&B,Electronic",
     genreCode: "3,4",
     grade: "3",
+    reportBtn: "<button class='reportBtn'>신고하기</button>",
   },
 ];
 
@@ -195,6 +209,11 @@ const grid = new tui.Grid({
       name: "genreCode",
       align: "center",
       sortable: true,
+    },
+    {
+      header: "신고 버튼",
+      name: "reportBtn",
+      align: "center",
     },
   ],
 });
