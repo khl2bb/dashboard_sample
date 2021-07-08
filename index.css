@@ -159,6 +159,15 @@ html {
   border-radius: 5px 5px 5px 5px;
 }
 
+.reportBtn {
+  background-color: #4b96e6;
+  border-radius: 15%;
+  width: 55px;
+  height: 20px;
+  color: white;
+  text-align: center;
+}
+
 .warning_card {
   padding: 10px 20px 10px 20px;
   background-color: #ffc107;
