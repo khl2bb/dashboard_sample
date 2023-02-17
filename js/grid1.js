@@ -192,6 +192,11 @@ const grid = new tui.Grid({
       header: "이름",
       name: "artist",
       align: "center",
+      filter: {
+        type: 'text',
+        showApplyBtn: true,
+        showClearBtn: true
+      }
     },
     {
       header: "로그 타입",
